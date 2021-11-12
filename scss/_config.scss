@@ -1,3 +1,5 @@
+$maxWidth: 1350px;
+
 @mixin flex($justify, $align) {
   display: flex;
   justify-content: $justify;
