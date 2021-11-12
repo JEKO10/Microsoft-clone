@@ -1,10 +1,61 @@
 .intro {
   background: url("../../images/introImg.png") no-repeat;
   background-size: 100%;
-  height: 80vh;
+  height: 70vh;
   max-width: 1350px;
   margin: 0 auto;
   color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 5%;
+  cursor: pointer;
+}
+
+.intro h1 {
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 500;
+  max-width: 550px;
+  margin-top: -5rem;
+}
+
+.intro p {
+  max-width: 550px;
+  padding: 20px 0;
+}
+
+.intro button {
+  background: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  padding: 10px 20px;
+}
+
+.intro button a {
+  color: #000;
+  text-decoration: none;
+}
+
+.intro button a:hover:not(span) {
+  border-bottom: 3px solid black;
+}
+
+.intro button a:hover:not(span) span {
+  margin: 0 5px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 * {

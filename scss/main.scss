@@ -1,3 +1,4 @@
+@import "config";
 @import "intro";
 
 * {
@@ -8,9 +9,7 @@
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include flex(space-between, center);
   max-width: 1350px;
   margin: 0 auto;
 
@@ -25,15 +24,11 @@ nav {
   }
 
   div:first-of-type {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center, center);
   }
 
   ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center, center);
     list-style-type: none;
 
     li {
