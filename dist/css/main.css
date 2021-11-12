@@ -48,11 +48,11 @@
   text-decoration: none;
 }
 
-.intro button a:hover:not(span) {
-  border-bottom: 3px solid black;
+.intro button a:hover {
+  border-bottom: 3px solid #000;
 }
 
-.intro button a:hover:not(span) span {
+.intro button a:hover span {
   margin: 0 5px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -70,6 +70,8 @@
           align-items: baseline;
   max-width: 1350px;
   margin: 0 auto;
+  margin-bottom: 2rem;
+  cursor: pointer;
 }
 
 .programs .edge,
@@ -114,9 +116,58 @@
 .mobile {
   background: url("../../images/mobile.jpg") no-repeat;
   background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 550px;
   max-width: 1350px;
   margin: 0 auto;
+  padding: 0 5%;
+  cursor: pointer;
+}
+
+.mobile h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: -5rem;
+}
+
+.mobile p {
+  padding: 10px 0 20px 0;
+}
+
+.mobile button {
+  background: #000;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  padding: 10px 20px;
+}
+
+.mobile button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mobile button a:hover {
+  border-bottom: 3px solid #fff;
+}
+
+.mobile button a:hover span {
+  margin: 0 5px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 * {

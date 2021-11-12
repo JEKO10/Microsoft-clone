@@ -34,8 +34,8 @@
       color: #000;
       text-decoration: none;
 
-      &:hover:not(span) {
-        border-bottom: 3px solid black;
+      &:hover {
+        border-bottom: 3px solid #000;
 
         span {
           margin: 0 5px;
