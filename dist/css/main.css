@@ -173,7 +173,7 @@
 .company {
   max-width: 1350px;
   margin: 0 auto;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .company h1 {
@@ -235,6 +235,91 @@
 
 footer {
   background-color: #f2f2f2;
+  padding: 2% 5%;
+}
+
+footer > div:first-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+footer > div:first-of-type div {
+  margin-right: 55px;
+  width: 12%;
+}
+
+footer > div:first-of-type div h4 {
+  font-weight: 500;
+  opacity: 0.7;
+  padding-bottom: 5px;
+}
+
+footer h6 {
+  font-weight: 400;
+  padding: 7px 0;
+  cursor: pointer;
+}
+
+footer h6:hover {
+  text-decoration: underline;
+}
+
+footer > div:last-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer > div:last-of-type div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer > div:last-of-type div button {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  opacity: 0.5;
+  margin-right: 1rem;
+}
+
+footer > div:last-of-type ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer > div:last-of-type ul h6 {
+  padding: 0 10px;
 }
 
 * {
