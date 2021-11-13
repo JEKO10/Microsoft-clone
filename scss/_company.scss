@@ -1,4 +1,54 @@
 .company {
   max-width: $maxWidth;
   margin: 0 auto;
+  margin-bottom: 2rem;
+
+  h1 {
+    font-weight: 500;
+    padding-bottom: 1rem;
+  }
+
+  .monitor,
+  .visualStudio {
+    margin: 0 15px;
+  }
+
+  & > div {
+    @include flex(center, baseline);
+
+    img {
+      height: 100%;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-weight: 500;
+      font-size: 1.3rem;
+      padding-bottom: 0.2rem;
+    }
+
+    p {
+      max-width: 350px;
+    }
+
+    button {
+      background: none;
+      border: none;
+      display: block;
+      font-size: 1rem;
+      margin: 1rem 0;
+
+      a {
+        display: block;
+        color: #0067b8;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+          border-bottom: 2px solid #0067b8;
+        }
+      }
+    }
+  }
 }

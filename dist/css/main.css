@@ -173,6 +173,64 @@
 .company {
   max-width: 1350px;
   margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.company h1 {
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.company .monitor,
+.company .visualStudio {
+  margin: 0 15px;
+}
+
+.company > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.company > div img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.company > div h2 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  padding-bottom: 0.2rem;
+}
+
+.company > div p {
+  max-width: 350px;
+}
+
+.company > div button {
+  background: none;
+  border: none;
+  display: block;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.company > div button a {
+  display: block;
+  color: #0067b8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.company > div button a:hover {
+  border-bottom: 2px solid #0067b8;
 }
 
 * {
