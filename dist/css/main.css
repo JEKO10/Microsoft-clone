@@ -170,6 +170,11 @@
   transition: all 500ms ease;
 }
 
+.company {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
 * {
   margin: 0;
   padding: 0;
